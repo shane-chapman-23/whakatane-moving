@@ -1,12 +1,11 @@
-import "./App.css";
-import GridLayout from "./components/GridLayout";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
-    <main className="app-shell">
-      <GridLayout columns={12} rowHeight={80} gap={16} className="w-full">
-        hi
-      </GridLayout>
+    <main className="min-h-screen bg-bg p-5">
+      <section className="flex justify-center">
+        <Hero />
+      </section>
     </main>
   );
 }
