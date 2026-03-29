@@ -1,9 +1,9 @@
-import Box from "@/components/Box";
+import { Box } from "@/components";
 import { wmLogoPeach } from "@/assets/logos";
 
 export default function Hero() {
   return (
-    <section className="mt-24 space-y-10">
+    <section id="hero" className="mt-24 space-y-10">
       <header className="max-w-3xl space-y-4">
         <h1 className="font-montserrat text-4xl font-extrabold tracking-tight text-text sm:text-5xl lg:text-6xl text-center xl:text-left ">
           Whakatane Moving.
